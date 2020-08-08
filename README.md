@@ -46,3 +46,9 @@ In this project, we will be hosting a static website by uploading files to the S
 }
 ```
 * Replace 'NAME_OF_BUCKET' with the bucket that was just created.
+
+### Configure S3 Bucket:
+
+* Click on the "Properties" tab and then click on  "Static website hosting".
+* Click on "Use this bucket to host a website".
+* For both "Index document" and "Error document", enter "index.html" and click "Save".
